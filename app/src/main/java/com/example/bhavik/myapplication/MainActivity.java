@@ -1,15 +1,10 @@
 package com.example.bhavik.myapplication;
 
 import android.app.Activity;
-import android.content.res.ColorStateList;
 import android.graphics.Color;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -37,7 +32,7 @@ public class MainActivity extends Activity {
             Button pushMe = (Button) findViewById(R.id.pushMe);
          //this is for changing text color in button
             pushMe.setTextColor(Color.RED);
-         //this is for changing color in button
+         // for changing color in button
             pushMe.setBackgroundColor(Color.BLUE);
             t = Toast.makeText(this, "you are clicking on Push Me button", Toast.LENGTH_SHORT);
             t.show();
